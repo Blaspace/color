@@ -23,8 +23,6 @@ function SixSection() {
               eaque labore ullam sint voluptatum exercitationem quisquam,
               distinctio ipsa excepturi tempore. Lorem ipsum dolor sit amet
               consectetur adipisicing elit. Porro eaque labore ullam sint
-              voluptatum exercitationem quisquam, distinctio ipsa excepturi
-              tempore. Lorem ipsum dolor sit amet consectetu
             </p>
             <br />
           </div>
@@ -42,7 +40,6 @@ function SixSection() {
               <li>Lorem ipsum dolor amet consectetu</li>
               <li>Lorem ipsum dolor sit amet consectetu</li>
               <li>Lorem idolor sit amet consectetu</li>
-              <li>Lorem ipsum dolor sit amet consectetu</li>
             </ul>
             <br />
             <br />
@@ -61,8 +58,6 @@ function SixSection() {
               eaque labore ullam sint voluptatum exercitationem quisquam,
               distinctio ipsa excepturi tempore. Lorem ipsum dolor sit amet
               consectetur adipisicing elit. Porro eaque labore ullam sint
-              voluptatum exercitationem quisquam, distinctio ipsa excepturi
-              tempore. Lorem ipsum dolor sit amet consectetu
             </p>
             <br />
             <p>
@@ -70,8 +65,6 @@ function SixSection() {
               eaque labore ullam sint voluptatum exercitationem quisquam,
               distinctio ipsa excepturi tempore. Lorem ipsum dolor sit amet
               consectetur adipisicing elit. Porro eaque labore ullam sint
-              voluptatum exercitationem quisquam, distinctio ipsa excepturi
-              tempore. Lorem ipsum dolor sit amet consectetu
             </p>
           </div>
         </div>

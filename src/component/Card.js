@@ -4,7 +4,7 @@ function Card() {
   return (
     <div className="card-section">
       <div className="card-con">
-        <div className="card">
+        <div className="card" data-aos="fade-up" data-aos-duration="1000">
           <div className="cardh1"></div>
           <div>
             <br />

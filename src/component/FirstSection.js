@@ -1,4 +1,5 @@
 import React from "react";
+import { FaQuoteLeft } from "react-icons/fa";
 
 function FirstSection() {
   return (
@@ -18,16 +19,15 @@ function FirstSection() {
             exercitationem quisquam, distinctio ipsa excepturi tempore. Lorem
             ipsum dolor sit amet consectetur adipisicing elit. Porro eaque
             labore ullam sint voluptatum exercitationem quisquam, distinctio
-            ipsa excepturi tempore. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Porro eaque labore ullam sint voluptatum
-            exercitationem quisquam, distinctio ipsa excepturi tempore.
           </p>
           <br />
           <button>Contact Us</button>
         </div>
         <h1>A</h1>
         <div>
-          <span>"</span>
+          <span>
+            <FaQuoteLeft />
+          </span>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eaque
             labore ullam sint voluptatum exercitationem quisquam, distinctio
@@ -36,9 +36,6 @@ function FirstSection() {
             exercitationem quisquam, distinctio ipsa excepturi tempore. Lorem
             ipsum dolor sit amet consectetur adipisicing elit. Porro eaque
             labore ullam sint voluptatum exercitationem quisquam, distinctio
-            ipsa excepturi tempore. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Porro eaque labore ullam sint voluptatum
-            exercitationem quisquam, distinctio ipsa excepturi tempore.
           </p>
           <br />
           <h2>Anabela Rose</h2>

@@ -33,7 +33,7 @@ body {
 /*NAV*/
 .nav {
   width: 100%;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   display: flex;
@@ -42,6 +42,8 @@ body {
   align-items: center;
   color: var(--whitecolor);
   z-index: 4;
+  background-color: #010a2463;
+  backdrop-filter: blur(10px);
 }
 .nav ul {
   width: 40%;
@@ -60,7 +62,7 @@ body {
 
 /*HEADER*/
 .header {
-  height: 80vh;
+  height: 75vh;
   display: flex;
   background-image: url("./public/hero.webp");
   background-repeat: no-repeat;
@@ -115,8 +117,7 @@ body {
   transition: background-color 400ms;
 }
 .header button:hover {
-  background-color: var(--secondcolor);
-  color: #fafafa;
+  border: 1px solid #ff2600;
 }
 
 /*HEADER CARDS*/
@@ -124,6 +125,8 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
+  position: relative;
+  bottom: 70px;
 }
 .card-con {
   display: flex;
@@ -133,8 +136,7 @@ body {
   gap: 25px;
   width: 100%;
   max-width: 1200px;
-  position: relative;
-  bottom: 70px;
+
   z-index: 2;
 }
 .card {
@@ -237,7 +239,7 @@ body {
   font-size: 40px;
   position: relative;
   top: 40px;
-  right: 25px;
+  right: 50px;
 }
 .first-con button {
   background-image: var(--gradient);
@@ -479,7 +481,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: stretch;
-  min-height: 600px;
+  min-height: 500px;
 }
 
 .fifth-g {
@@ -492,9 +494,15 @@ body {
   min-height: 300px;
   color: var(--whitecolor);
   padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .fifth-g p {
   margin-top: 5px;
+}
+.fifth-g span {
+  font-size: 40px;
 }
 .fifth-bg {
   background-image: url("./public/hero.webp");
@@ -693,14 +701,14 @@ body {
     width: 100%;
   }
   .card {
-    width: 30%;
+    width: 28%;
   }
   .first-con {
     flex-direction: row;
   }
   .first-con h1 {
     display: block;
-    font-size: 40rem;
+    font-size: 30rem;
   }
   .second {
     margin-top: 0;
@@ -750,7 +758,7 @@ body {
     width: 30%;
   }
   .sixth {
-    height: 600px;
+    height: 550px;
   }
   .sixth-bg {
     flex-direction: row;
@@ -772,7 +780,7 @@ body {
     padding-bottom: 0;
   }
   .our-best {
-    width: 35%;
+    width: 40%;
     height: 75%;
   }
   .sixth-text {

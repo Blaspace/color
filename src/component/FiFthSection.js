@@ -1,4 +1,6 @@
 import React from "react";
+import { CiFacebook } from "react-icons/ci";
+import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 
 function FiFthSection() {
   return (
@@ -17,9 +19,6 @@ function FiFthSection() {
             adipisicing elit. Porro eaque labore ullam sint voluptatum
             exercitationem quisquam, distinctio ipsa excepturi tempore. Lorem
             ipsum dolor sit amet consectetur adipisicing elit. Porro eaque
-            labore ullam sint voluptatum exercitationem quisquam, distinctio
-            ipsa excepturi tempore. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Porro eaque labore
           </p>
           <br />
           <div>
@@ -42,9 +41,16 @@ function FiFthSection() {
       </div>
       <div className="fifth-bg"></div>
       <div className="fifth-g">
-        <h3>Get in touch with our team for more</h3>
-        <p>Lorem ipsum dolor sit amet consectetur</p>
-        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <div>
+          <h3>Get in touch with our team for more</h3>
+          <p>Lorem ipsum dolor sit amet consectetur</p>
+          <p>Lorem ipsum dolor sit amet consectetur</p>
+        </div>
+        <span>
+          <CiFacebook />
+          <FaWhatsapp />
+          <FaInstagram />
+        </span>
       </div>
     </div>
   );

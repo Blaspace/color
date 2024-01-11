@@ -7,7 +7,9 @@ function Header() {
       <Nav />
       <div className="header-con"></div>
       <span>
-        <h1>Simply the Best</h1>
+        <h1 data-aos="fade-left" data-aos-duration="2000">
+          Simply the Best
+        </h1>
         <br />
         <h3>Reasons for Choosing Us</h3>
         <br />
